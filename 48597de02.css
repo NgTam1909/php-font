@@ -1,0 +1,105 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Afacad Flux';
+}
+
+.container {
+    max-width: 1170px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* .imgcontent {
+    border: 1px solid #000;
+} */
+
+.row1 {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+.row1 img {
+    max-width: 100%;
+    height: auto;
+}
+.colum1 {
+    max-width: 400px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.colum1 img {
+    width: 400px;
+    height: auto;
+}
+
+.colum2 {
+    max-width: 400px;
+    height: auto;
+}
+
+.colum2 img {
+    width: 400px;
+    height: auto;
+}
+
+.colum3 {
+    max-width: 400px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.colum3 img {
+    width: 400px;
+    height: auto;
+}
+.row2{
+    display: flex;
+    flex: 1;
+    padding-top: 15px;
+  gap: 20px;
+}
+.row2 img{
+    width: 576px;
+    height: auto;
+}
+.info{
+    max-width: 1170px;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    /* border: 1px solid #000; */
+    padding-top: 20px;
+}
+h2{
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 20px;
+}
+.infosale{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    justify-content: center ;
+}
+.name{
+    font-weight: bold;
+    color: rgb(38, 38, 121);
+    font-size: 20px;
+    padding: 10px;
+}
+.price{
+    text-decoration: line-through;
+}
+.info1, .info2, .info3{
+    border-radius: 8px;
+    border: 1px solid #bebebe;
+    padding: 20px 50px 15px 50px;
+    text-align: center;
+}
