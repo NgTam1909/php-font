@@ -1,0 +1,123 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.phan1 {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.trai,
+.phai {
+    display: flex;
+    gap: 15px;
+}
+
+.a {
+    display: flex;
+    gap: 5px;
+    color: rgb(83, 82, 82);
+    font-size: 18px;
+}
+
+.a:hover {
+    color: rgb(31, 31, 155);
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+i {
+    text-align: center;
+}
+
+.phan2 {
+    border-bottom: 1px solid rgb(158, 158, 158);
+    border-top: 1px solid rgb(158, 158, 158);
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    gap: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+
+
+.search {
+    position: relative;
+}
+
+.tk-input {
+    height: 40px;
+    width: 400px;
+    border-radius: 30px;
+    margin-top: 2.5px;
+    color: #bebebe;
+    border: 1px solid rgba(255, 253, 253, 0);
+    background-color: rgba(229, 227, 227, 0.739);
+}
+
+::placeholder {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.iconS {
+    position: absolute;
+    top: 16px;
+    left: 360px;
+    color: gray;
+    font-size: 20px;
+}
+
+.phan3 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 17px;
+}
+.p1{
+    color: gray;
+    cursor: pointer;
+}
+.p1 :hover{
+    color: rgb(0, 0, 0);
+
+}
+
+
+.phan4 {
+    background-image: url(img/trangsuc.png);
+    background-size: cover;
+    display: flex;
+    width: 90%;
+    height: 600px;
+    justify-content: right;
+    margin: auto;
+    align-items: center;
+    font-weight: bolder;
+    text-align: center;
+    padding-right: 5%;
+    font-size: 25px;
+    color: rgb(89, 67, 67);
+}

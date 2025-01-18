@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+.de15{
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(246, 241, 250);
+}
+.menubar{
+    display: grid;
+    grid-template-columns: repeat(2, 40% 60%);
+    margin-bottom: 20px;
+}
+.name-shop{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 10%;
+}
+.menu{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+}
+.cart i{
+    font-size: 40px;
+}
+.background{
+    background-color: rgb(233, 211, 250);
+    display: grid;
+    grid-template-columns: repeat(2, 50% 50%);
+    justify-content: space-between;
+}
+.background img{
+    width: 100%;
+}
+.content {
+    padding: 30% 20% 20% 20%;
+    font-size: 40px;
+    line-height: 1.5;
+}
+.content button{
+    padding: 10px ;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+.container{
+    position: relative;
+    height: auto;
+    border: 1px solid black;
+}
+.shop1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-image:url(img/flower2.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 150px;
+    bottom: -70px;
+    left: 10%;
+}
+.shop2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-image:url(img/flower2.jpg);
+    background-size: cover;
+    width: 280px;;
+    height: 150px;
+    bottom: -70px;
+    left: 42%;
+}.shop3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-image:url(img/flower2.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 150px;
+    bottom: -70px;
+    right: 10%;
+}

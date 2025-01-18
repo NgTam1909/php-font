@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="48618de13.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" . />
+
+</head>
+
+<body>
+    <div class="de13">
+        <div class="cart">
+            <div class="cart-product">
+                <div class="select">
+                    <input type="checkbox" style="margin: 10px;"> Chọn tất cả
+                    <button class="delete"> <i class="fa-regular fa-trash-can"></i></button>
+                </div>
+                <div class="product1">
+                    <div class="info">
+                        <input type="checkbox" style="margin: 10px;"> <img src="img/01.jpg" alt="">
+                        <div class="detail1">
+                            <p class="name"> Máy xay thịt Magic Eco AC-15</p>
+                            <p class="color"> Màu: <select style="border: none;font-size: 20px;">
+                                    <option value="">Bạc</option>
+                                    <option value="">Đen</option>
+                                </select></p>
+                        </div>
+                    </div>
+                    <p class="price">
+                        <span style="font-weight: bold; color: orangered;font-size: 20px;"> 499.000 VND </span> <br>
+                        <span style="color: #bebebe;text-decoration: line-through;font-size: 18;">699.000 VND</span>
+                    </p>
+                    <div class="quantity">
+                        <button class="button" onclick="decrease()">-</button>
+                        <span id="quantity" style="padding-left: 10px;padding-right: 10px;"> 1 </span>
+                        <button class="button" onclick="increase()">+</button>
+                    </div>
+                    <button class="delete">
+                        <i class="fa-regular fa-trash-can"></i></button>
+                </div>
+                <div class="product1">
+                    <div class="info">
+                        <input type="checkbox" style="margin: 10px;"> <img src="img/01.jpg" alt="">
+                        <div class="detail1">
+                            <p class="name"> Miếng dán kính cường lực camera iPhone 15/15 Plus
+                                UniQ Viền Xanh mint</p>
+                            <p class="color"> Màu: <select style="border: none;font-size: 20px;">
+                                    <option value="">Xanh lá</option>
+                                    <option value="">Bạc </option>
+                                </select></p>
+                        </div>
+                    </div>
+                    <p class="price">
+                        <span style="font-weight: bold; color: orangered;font-size: 20px;"> 279.000 VND </span> <br>
+                        <span style="color: #bebebe;text-decoration: line-through;font-size: 18;">399.000 VND</span>
+                    </p>
+                    <div class="quantity">
+                        <button class="button" onclick="decrease()">-</button>
+                        <span id="quantity" style="padding-left: 10px;padding-right: 10px;"> 1 </span>
+                        <button class="button" onclick="increase()">+</button>
+                    </div>
+                    <button class="delete">
+                        <i class="fa-regular fa-trash-can"></i></button>
+                </div>
+                <div class="product1">
+                    <div class="info">
+                        <input type="checkbox" style="margin: 10px;"> <img src="img/01.jpg" alt="">
+                        <div class="detail1">
+                            <p class="name"> Robot hút bụi lau nhà Takdir V3-2s VC</p>
+                            <p class="color"> Màu: <select style="border: none;font-size: 20px;">
+                                    <option value="">Trắng</option>
+                                    <option value="">Đen</option>
+                                </select></p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span style="font-weight: bold; color: orangered;font-size: 20px;"> 1.790.000 VND </span> <br>
+                        <span style="color: #bebebe;text-decoration: line-through;font-size: 18;">4.290.000 VND</span>
+                    </div>
+                    <div class="quantity">
+                        <button class="button" onclick="decrease()">-</button>
+                        <span id="quantity" style="padding-left: 10px;padding-right: 10px;"> 1 </span>
+                        <button class="button" onclick="increase()">+</button>
+                    </div>
+                    <button class="delete">
+                        <i class="fa-regular fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="order">
+                <div class="gift">
+                    <i class="fa-solid fa-gift icongift"></i>
+                    <p style="padding-left: 20px;"> Quà tặng </p>
+                    <a href="" style="text-decoration: none;text-align: right;"> Xem quà (0) </a>
+                </div>
+                <div class="confirm">
+                    <div class="voucher">
+                        <i class="fa-solid fa-ticket iconticket"></i>
+                        <input type="text" placeholder="Chọn hoặc nhập ưu đãi" class="input-voucher"
+                            style="border: none;">
+                        <button class="btn-more">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                    <div class="point">
+                        <i class="fas fa-coins"></i>
+                        Đổi 0 điểm (~0đ)
+                        <a href="" style="text-decoration: none;"><i class="fa-solid fa-question"></i></a>
+                        <input type="checkbox" class="apply">
+                    </div>
+                    <h2 class="text">Thông tin đơn hàng</h2>
+                    <div class="price2">
+                        <p>Tổng tiền </p>
+                        <span style="font-weight: bold;"> 5.388.000 VND</span>
+                    </div>
+                <hr style="border: solid 1px;">
+                    <div class="price2">
+                        <p>Tổng khuyến mãi </p>
+                        <span style="font-weight: bold;"> 2.820.000 VND</span>
+                    </div>
+                    <div class="price2">
+                        <p>Phí vận chuyển  </p>
+                        <span> Miễn phí </span>
+                    </div>
+                    <hr style="border: dashed 1px;">
+                    <div class="price2">
+                        <p> Cần thanh toán </p>
+                        <span style="font-weight: bold; color: orangered;"> 2.568.000 VND</span>
+                    </div>
+                    <div class="price2">
+                        <p>Điểm thưởng </p>
+                        <span style="font-weight: bold;"> <i class="fas fa-coins"></i> +642</span>
+                    </div>
+                    <a href="" style="font-size: 20px;text-decoration: none;"> 
+                        Xem chi tiết <i class="fa-solid fa-angle-down"></i> </a>
+                    <button class="admit"> Xác nhận đơn</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

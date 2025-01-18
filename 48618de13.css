@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+button{
+    cursor: pointer;
+}
+.de13{
+    border: 1px solid #0c0b0b;
+    padding: 20px;
+    background-color: azure;
+    margin: 10px;
+}
+.cart{
+    display: grid;
+    grid-template-columns: repeat(2, 60% 40%);
+}
+.cart-product{
+    border-radius: 8px;
+
+}
+.select{
+    position: relative;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+ .delete{
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    border: none;
+    font-size: 30px;
+    color: #bebebe;
+}
+.product1{
+    position: relative;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 65% 13% 22%);
+    align-items: center;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+input{
+    width: 20px;
+    height: 20px;
+
+}
+.product1 img{
+    width: 20%;
+    border-radius: 15px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    
+}
+.name{
+    font-size: 20px;
+    padding: 10px;
+}
+.color{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 254, 240, 0.78);
+    width: fit-content;
+}
+.quantity{
+    background-color:rgba(255, 255, 255, 0.644);
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 20px;
+}
+.button{
+    width: 40px;
+    height: 40px;
+}
+.product1 .delete{
+    top: 40%;
+}
+
+.order{
+    padding-left: 20px;
+}
+.gift{
+    display: grid;
+    grid-template-columns: repeat(3, 2% 80% 18%);
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.confirm{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 2;
+}
+.voucher{
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(3, 5% 85% 10%);
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    background-color: rgb(250, 238, 229);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.input-voucher{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background-color:  rgb(250, 238, 229);
+    padding: 10px;
+}
+.btn-more{
+    border: none; 
+    background-color:rgb(250, 238, 229);
+    font-size: 20px;
+}
+.point{
+    font-size: 20px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,5% 25% 60% 5%);
+    background-color: rgb(250, 238, 229);
+    border-radius: 15px;
+    padding: 10px;
+}
+.apply {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+  }
+  .price2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 2;
+  }
+  .admit{
+    width: 100%;
+    height: 80px;
+    border-radius: 15px;
+    background-color: orangered;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+  }
